@@ -120,23 +120,27 @@
     "Z": 245.68542
 },
 "TerritoryId": 152,
-"InteractionType": "Action",
-"Action": "Cure"
-                },
-                {
-                    "DataId": 1003057,
-"Position": {
-    "X": -237.6593,
-    "Y": 17.850079,
-    "Z": 243.48816
-},
-"TerritoryId": 152,
-"InteractionType": "Interact"
+"InteractionType": "WaitForManualProgress",
+"$": "Action needs to be cure, cure needs to be added to schema--manual until then" 
                 }
             ]
         },
         {
             "Sequence": 5,
+            "Steps": [
+                {"DataId": 1003057,
+"Position": {
+"X": -237.6593,
+"Y": 17.850079,
+"Z": 243.48816
+},
+"TerritoryId": 152,
+"InteractionType": "Interact"
+                    }
+            ]
+        },
+        {
+            "Sequence": 6,
             "Steps": [
                 {
                     "Position": {
@@ -160,7 +164,7 @@
             ]
         },
         {
-            "Sequence": 6,
+            "Sequence": 7,
             "Steps": [
                 {
                     "Position": {
