@@ -1,0 +1,100 @@
+{
+    "$schema": "https://git.carvel.li/liza/Questionable/raw/branch/master/QuestPaths/quest-v1.json",
+    "Author": "Cacahuetes",
+    "QuestSequence": [
+        {
+            "Sequence": 0,
+            "Steps": [
+                {
+                    "Position": {
+    "X": -139.42305,
+    "Y": 8.530573,
+    "Z": 280.3698
+},
+"TerritoryId": 153,
+"InteractionType": "WalkTo"
+                },
+                {
+                    "DataId": 1006751,
+"Position": {
+    "X": -139.45221,
+    "Y": 8.712891,
+    "Z": 281.69678
+},
+"TerritoryId": 153,
+"InteractionType": "AcceptQuest"
+                }
+            ]
+        },
+        {
+            "Sequence": 1,
+            "Steps": [
+                {
+                    "Position": {
+    "X": -409.1981,
+    "Y": 61.063103,
+    "Z": -153.9051
+},
+"TerritoryId": 148,
+"InteractionType": "WalkTo",
+"AetheryteShortcut": "Gridania",
+                    "AethernetShortcut": [
+                        "[Gridania] Aetheryte Plaza",
+                        "[Gridania] White Wolf Gate (Central Shroud)"
+                    ]
+                },
+                {
+                    "DataId": 2002392,
+"Position": {
+    "X": -416.5561,
+    "Y": 60.990234,
+    "Z": -148.63812
+},
+"TerritoryId": 148,
+"InteractionType": "Combat",
+"EnemySpawnType": "AutoOnEnterArea",
+"KillEnemyDataIds": [
+                        1937
+]
+
+                },
+                {
+                    "DataId": 2002392,
+"Position": {
+    "X": -416.5561,
+    "Y": 60.990234,
+    "Z": -148.63812
+},
+"TerritoryId": 148,
+"InteractionType": "Interact"
+                }
+            ]
+        },
+        {
+            "Sequence": 255,
+            "Steps": [
+                {
+                    "Position": {
+    "X": -139.42305,
+    "Y": 8.530573,
+    "Z": 280.3698
+},
+"TerritoryId": 153,
+"InteractionType": "WalkTo",
+                    "AetheryteShortcut": "South Shroud - Camp Tranquil"
+                },
+                {
+                    "DataId": 1006751,
+"Position": {
+    "X": -139.45221,
+    "Y": 8.712891,
+    "Z": 281.69678
+},
+"TerritoryId": 153,
+"InteractionType": "CompleteQuest",
+"NextQuestId": 1080
+                }
+            ]
+        }
+    ]
+}
