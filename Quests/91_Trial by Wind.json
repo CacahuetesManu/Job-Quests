@@ -62,15 +62,6 @@
                         {
                             "DataId": 2000885,
                             "Position": {
-                                "X": -510.6432,
-                                "Y": 6.301941,
-                                "Z": 35.78235
-                            },
-                            "TerritoryId": 152,
-                            "InteractionType": "Interact"
-                        },
-                        {
-                            "Position": {
                                 "X": -510.6655,
                                 "Y": 5.8422394,
                                 "Z": 35.87895
