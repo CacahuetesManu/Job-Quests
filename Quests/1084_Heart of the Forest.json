@@ -12,7 +12,8 @@
     "Z": 270.5661
 },
 "TerritoryId": 153,
-"InteractionType": "WalkTo"
+"InteractionType": "WalkTo",
+                    "AetheryteShortcut": "South Shroud - Camp Tranquil"
                 },
                 {
                     "DataId": 1006751,
@@ -31,63 +32,39 @@
             "Steps": [
                 {
                     "Position": {
-    "X": -409.1981,
-    "Y": 61.063103,
-    "Z": -153.9051
+    "X": -315.67767,
+    "Y": 20.999746,
+    "Z": 178.48499
 },
 "TerritoryId": 148,
 "InteractionType": "WalkTo",
-"AetheryteShortcut": "Gridania",
-                    "AethernetShortcut": [
-                        "[Gridania] Aetheryte Plaza",
-                        "[Gridania] White Wolf Gate (Central Shroud)"
-                    ]
+"AetheryteShortcut": "Central Shroud - Bentbranch Meadows"
                 },
                 {
-                    "DataId": 2002392,
+                    "DataId": 2002408,
 "Position": {
-    "X": -416.5561,
-    "Y": 60.990234,
-    "Z": -148.63812
+    "X": -316.27374,
+    "Y": 21.194763,
+    "Z": 179.70544
 },
 "TerritoryId": 148,
-"InteractionType": "Combat",
-"EnemySpawnType": "AutoOnEnterArea",
-"KillEnemyDataIds": [
-                        1937
-]
-
-                },
-                {
-                    "DataId": 2002392,
-"Position": {
-    "X": -416.5561,
-    "Y": 60.990234,
-    "Z": -148.63812
-},
-"TerritoryId": 148,
-"InteractionType": "Interact"
+"InteractionType": "SinglePlayerDuty"
                 }
             ]
         },
         {
-            "Sequence": 255,
+            "Sequence": 2,
             "Steps": [
                 {
-                    "Position": {
-    "X": -146.86935,
-    "Y": 8.006159,
-    "Z": 268.78055
+                   "Position": {
+    "X": -144.79848,
+    "Y": 8.131525,
+    "Z": 270.5661
 },
 "TerritoryId": 153,
-                    "AetheryteShortcut": "South Shroud - Camp Tranquil",
-                    "InteractionType": "Jump",
-          "JumpDestination": {
-            "Position": {
-    "X": -137.77051,
-    "Y": 7.7094107,
-    "Z": 275.28036
-}}},
+"InteractionType": "WalkTo",
+                    "AetheryteShortcut": "South Shroud - Camp Tranquil"
+                },
                 {
                     "DataId": 1006751,
 "Position": {
@@ -97,7 +74,7 @@
 },
 "TerritoryId": 153,
 "InteractionType": "CompleteQuest",
-"NextQuestId": 1080
+"NextQuestId": 1084
                 }
             ]
         }
