@@ -19,7 +19,12 @@
                         "X": -137.77051,
                         "Y": 7.7094107,
                         "Z": 275.28036
-                    }}},
+                    }},
+                    "SkipConditions": {
+            "AetheryteShortcutIf": {
+              "NotInSameTerritory": true
+            }
+          }},
                                     {
                                         "DataId": 1006751,
                     "Position": {

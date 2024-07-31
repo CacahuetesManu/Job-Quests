@@ -7,24 +7,34 @@
             "Steps": [
                 {
                     "Position": {
-    "X": -144.79848,
-    "Y": 8.131525,
-    "Z": 270.5661
-},
-"TerritoryId": 153,
-"InteractionType": "WalkTo",
-                    "AetheryteShortcut": "South Shroud - Camp Tranquil"
-                },
-                {
-                    "DataId": 1006751,
-"Position": {
-    "X": -139.45221,
-    "Y": 8.712891,
-    "Z": 281.69678
-},
-"TerritoryId": 153,
-"InteractionType": "AcceptQuest"
-                }
+                        "X": -146.86935,
+                        "Y": 8.006159,
+                        "Z": 268.78055
+                    },
+                    "TerritoryId": 153,
+                                        "AetheryteShortcut": "South Shroud - Camp Tranquil",
+                                        "InteractionType": "Jump",
+                              "JumpDestination": {
+                                "Position": {
+                        "X": -137.77051,
+                        "Y": 7.7094107,
+                        "Z": 275.28036
+                    }},
+                    "SkipConditions": {
+            "AetheryteShortcutIf": {
+              "NotInSameTerritory": true
+            }
+          }},
+                                    {
+                                        "DataId": 1006751,
+                    "Position": {
+                        "X": -139.45221,
+                        "Y": 8.712891,
+                        "Z": 281.69678
+                    },
+                    "TerritoryId": 153,
+                    "InteractionType": "AcceptQuest"
+                  }
             ]
         },
         {
@@ -50,7 +60,7 @@
 "TerritoryId": 138,
 "InteractionType": "Emote",
 "Emote":"pray",
-"$": "00 00 00 00 -> 17 0 1 16 0 128"
+"$": "0 0 17 16 0 0 -> 17 0 1 16 0 128"
                 },
                 {
                     "Position": {
@@ -94,7 +104,7 @@
 "TerritoryId": 147,
 "InteractionType": "Emote",
 "Emote":"pray",
-"$": "17 0 1 16 0 128 -> 0 0 0 0 0 0"
+"$": "33 16 1 0 0 192 -> 0 0 0 0 0 0"
                 }
             ]
         },
@@ -214,23 +224,28 @@
             "Steps": [
                 {
                     "Position": {
-    "X": -144.79848,
-    "Y": 8.131525,
-    "Z": 270.5661
-},
-"TerritoryId": 153,
-"InteractionType": "WalkTo",
-                    "AetheryteShortcut": "South Shroud - Camp Tranquil"
-                },
-                {
-                    "DataId": 1006751,
-"Position": {
-    "X": -139.45221,
-    "Y": 8.712891,
-    "Z": 281.69678
-},
-"TerritoryId": 153,
-"InteractionType": "CompleteQuest",
+                        "X": -146.86935,
+                        "Y": 8.006159,
+                        "Z": 268.78055
+                    },
+                    "TerritoryId": 153,
+                                        "AetheryteShortcut": "South Shroud - Camp Tranquil",
+                                        "InteractionType": "Jump",
+                              "JumpDestination": {
+                                "Position": {
+                        "X": -137.77051,
+                        "Y": 7.7094107,
+                        "Z": 275.28036
+                    }}},
+                                    {
+                                        "DataId": 1006751,
+                    "Position": {
+                        "X": -139.45221,
+                        "Y": 8.712891,
+                        "Z": 281.69678
+                    },
+                    "TerritoryId": 153,
+                    "InteractionType": "CompleteQuest",
 "NextQuestId": 1083
                 }
             ]

@@ -18,7 +18,12 @@
                         "[Gridania] Aetheryte Plaza",
                         "[Gridania] Conjurers' Guild"
                     ],
-                    "InteractionType": "AcceptQuest"
+                    "InteractionType": "AcceptQuest",
+                    "SkipConditions": {
+            "AetheryteShortcutIf": {
+              "NotInSameTerritory": true
+            }
+          }
                 }
             ]
         },
