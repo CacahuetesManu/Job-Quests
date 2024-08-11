@@ -40,7 +40,8 @@
                         {
                             "Type": "YesNo",
                             "Prompt": "TEXT_CLSGLA020_00253_Q1_000_1",
-                            "Yes": true
+                            "Yes": true,
+                            "$": "Need to find real prompt in godbert"
                         }
                     ]
                 }

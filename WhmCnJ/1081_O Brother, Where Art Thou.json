@@ -1,30 +1,10 @@
 {
     "$schema": "https://git.carvel.li/liza/Questionable/raw/branch/master/QuestPaths/quest-v1.json",
-    "Author": "AUTHOR",
+    "Author": "Cacahuetes",
     "QuestSequence": [
         {
             "Sequence": 0,
             "Steps": [
-                {
-                    "Position": {
-                        "X": -146.86935,
-                        "Y": 8.006159,
-                        "Z": 268.78055
-                    },
-                    "TerritoryId": 153,
-                                        "AetheryteShortcut": "South Shroud - Camp Tranquil",
-                                        "InteractionType": "Jump",
-                              "JumpDestination": {
-                                "Position": {
-                        "X": -137.77051,
-                        "Y": 7.7094107,
-                        "Z": 275.28036
-                    }},
-                    "SkipConditions": {
-            "AetheryteShortcutIf": {
-              "NotInSameTerritory": true
-            }
-          }},
                                     {
                                         "DataId": 1006751,
                     "Position": {

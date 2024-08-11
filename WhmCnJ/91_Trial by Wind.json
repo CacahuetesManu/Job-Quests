@@ -20,10 +20,10 @@
                             ],
                             "InteractionType": "AcceptQuest",
                             "SkipConditions": {
-                    "AetheryteShortcutIf": {
-                      "NotInSameTerritory": true
-                    }
-                  }
+            "AetheryteShortcutIf": {
+              "InSameTerritory": false
+            }
+          }
                         }
                     ]
                 },

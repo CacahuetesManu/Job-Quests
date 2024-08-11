@@ -18,7 +18,7 @@
                     "InteractionType": "AcceptQuest",
                     "SkipConditions": {
             "AetheryteShortcutIf": {
-              "NotInSameTerritory": true
+              "InSameTerritory": false
             }
           }
                 }
@@ -33,6 +33,7 @@
                         "Y": -28.377773,
                         "Z": 335.86304
                     },
+                    "AethernetShortcut": ["[Gridania] Conjurers' Guild","[Gridania] Yellow Serpent Gate (North Shroud)"],
                     "TerritoryId": 154,
                     "InteractionType": "WalkTo"
                 },
