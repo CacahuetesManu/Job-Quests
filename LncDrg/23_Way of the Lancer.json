@@ -18,9 +18,9 @@
                     "AethernetShortcut": ["[Gridania] Aetheryte Plaza","[Gridania] Lancers' Guild"],
                     "SkipConditions": {
             "AetheryteShortcutIf": {
-              "NotInSameTerritory": true
+              "InSameTerritory": false
             }
-                }
+          }
             }
             ]
         },
@@ -178,7 +178,7 @@
                     "AetheryteShortcut": "Gridania",
                     "AethernetShortcut": ["[Gridania] Aetheryte Plaza","[Gridania] Lancers' Guild"],
 "InteractionType": "CompleteQuest",
-"NextQuestId": 35
+"NextQuestId": 47
                 }
             ]
         }

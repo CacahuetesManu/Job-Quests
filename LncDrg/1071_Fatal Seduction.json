@@ -1,6 +1,6 @@
 {
     "$schema": "https://git.carvel.li/liza/Questionable/raw/branch/master/QuestPaths/quest-v1.json",
-    "Author": "AUTHOR",
+    "Author": "Cacahuetes",
     "QuestSequence": [
         {
             "Sequence": 0,
@@ -16,10 +16,10 @@
                     "InteractionType": "AcceptQuest",
                     "AetheryteShortcut": "Coerthas Central Highlands - Camp Dragonhead",
                     "SkipConditions": {
-                        "AetheryteShortcutIf": {
-                            "NotInSameTerritory": true
-                        }
-                    }
+            "AetheryteShortcutIf": {
+              "InSameTerritory": false
+            }
+          }
                 }
             ]
         },

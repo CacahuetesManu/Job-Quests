@@ -18,9 +18,9 @@
                     "AethernetShortcut": ["[Gridania] Aetheryte Plaza","[Gridania] Lancers' Guild"],
                     "SkipConditions": {
             "AetheryteShortcutIf": {
-              "NotInSameTerritory": true
+              "InSameTerritory": false
             }
-                }
+          }
             }
             ]
         },
@@ -137,7 +137,7 @@
                         null,
                         null
                     ],
-                    "$": "35 48  0 0  0 0 -> 35 51  0 0  0 0 // This one automatically went to 0 0 0 0 0 0 so I am not sure about the 51 part"
+                    "$": " Couldn't measure"
                                 }
             ]
         },

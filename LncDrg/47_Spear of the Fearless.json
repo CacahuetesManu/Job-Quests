@@ -1,6 +1,6 @@
 {
     "$schema": "https://git.carvel.li/liza/Questionable/raw/branch/master/QuestPaths/quest-v1.json",
-    "Author": "AUTHOR",
+    "Author": "Cacahuetes",
     "QuestSequence": [
         {
             "Sequence": 0,
@@ -20,10 +20,10 @@
                         "[Gridania] Lancers' Guild"
                     ],
                     "SkipConditions": {
-                        "AetheryteShortcutIf": {
-                            "NotInSameTerritory": true
-                        }
-                    }
+            "AetheryteShortcutIf": {
+              "InSameTerritory": false
+            }
+          }
                 }
             ]
         },
@@ -174,10 +174,10 @@
                                 "[Gridania] Lancers' Guild"
                             ],
                             "SkipConditions": {
-                                "AetheryteShortcutIf": {
-                                    "NotInSameTerritory": false
-                                }
-                            }
+            "AetheryteShortcutIf": {
+              "InSameTerritory": false
+            }
+          }
                         }
                     ]
                 },
